@@ -11,18 +11,6 @@ export type Sale = {
 
 export type SalePage = {
   content?: Sale[];
-  // pageable: {
-  //   sort: {
-  //       sorted: boolean,
-  //       unsorted: boolean,
-  //       empty: boolean
-  //   },
-  //   offset: number,
-  //   pageNumber: number,
-  //   pageSize: number,
-  //   paged: boolean,
-  //   unpaged: boolean
-  // },
   last: boolean;
   totalPages: number;
   totalElements: number;
